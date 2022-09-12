@@ -4,6 +4,7 @@ export interface EventItem {
   id: number
   category: string
   title: string
+  tags: string[]
   description: string
   location: string
   date: string
